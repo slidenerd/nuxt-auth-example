@@ -1,0 +1,33 @@
+{
+    "name": "nuxt-auth-example",
+    "version": "1.0.0",
+    "description": "A project to showcase a session authentication flow in nuxt with nuxt-auth",
+    "author": "UnlimitedBytes",
+    "private": true,
+    "scripts": {
+        "dev": "nuxt",
+        "build": "nuxt build",
+        "start": "nuxt start",
+        "generate": "nuxt generate",
+        "setup": "node -r esm setup/index.js"
+    },
+    "dependencies": {
+        "@nuxtjs/auth": "^4.9.1",
+        "@nuxtjs/axios": "^5.3.6",
+        "@nuxtjs/dotenv": "^1.4.0",
+        "@nuxtjs/pwa": "^3.0.0-0",
+        "bcryptjs": "^2.4.3",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "express-session": "^1.17.1",
+        "mongoose": "^5.9.16",
+        "nuxt": "^2.0.0",
+        "passport": "^0.4.1",
+        "passport-local": "^1.0.0"
+    },
+    "devDependencies": {
+        "@nuxtjs/vuetify": "^1.0.0",
+        "esm": "^3.2.25",
+        "ora": "^4.0.4"
+    }
+}
