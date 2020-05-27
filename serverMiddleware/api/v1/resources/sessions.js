@@ -36,7 +36,10 @@ router.all( '/', ( req, res, next ) => {
 
                     res.json( {
                         success: true,
-                        user
+                        user: {
+                            username: user.username,
+                            email: user.email
+                        }
                     } );
                 } );
             } )( req, res, next );
@@ -78,7 +81,10 @@ router.all( '/:id', ( req, res ) => {
 
             res.json( {
                 success: true,
-                user: req.user
+                user: {
+                    username: req.user.username,
+                    email: req.user.email
+                }
             } );
             break;
         case 'DELETE':
