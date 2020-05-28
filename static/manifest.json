@@ -1,9 +1,9 @@
 {
-    "name": "Sucuk",
-    "description": "Sucuk, sucuk, sucuk",
+    "name": "nuxt-auth-example",
+    "description": "A project to showcase a session authentication flow in nuxt with nuxt-auth",
     "default_locale": "en",
-    "version": "0.0.1",
-    "version_name": "0.0.1-dev",
+    "version": "1.0.0",
+    "version_name": "1.0.0",
     "display": "minimal-ui",
     "start_url": "/",
     "icons": [
